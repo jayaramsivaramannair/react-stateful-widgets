@@ -68,7 +68,7 @@ export default function Counter() {
   const style = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: 'royalblue', //to be changed to crimson if odd
+    color: checkEven ? 'royalblue' : 'crimson',
   };
 
   return (
